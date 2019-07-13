@@ -15,10 +15,13 @@
 
   <body>
     <div class="container">
-      <h3>Scotauto: Steem Scot claim automation</h3>
+      <h3>Scotauto: Steem Scot Claim Automation</h3>
 
       <div>
-        Scotauto claims all scot tokens every 1 hour.
+        Scotauto claims all scot tokens (and steem reward) every 1 hour.<br />
+        General instruction can be found here: <a href="https://steemit.com/@blockchainstudio/scotauto"
+        >https://steemit.com/@blockchainstudio/scotauto</a
+      >
       </div>
 
       <br />
@@ -26,9 +29,6 @@
       <h4>Authorize scotauto</h4>
       <input type="text" placeholder="username" id="username_authorize" />
       <button id="authorize">Authorize</button>
-      <h4>Revoke scotauto</h4>
-      <input type="text" placeholder="username" id="username_revoke" />
-      <button id="revoke">Revoke</button>
       <br /><br />
 
       <h4>To use scotauto</h4>
@@ -37,18 +37,30 @@
         After authorization, write a reply to
         <a href="https://steemit.com/@blockchainstudio/scotauto"
           >https://steemit.com/@blockchainstudio/scotauto</a
-        >. Currently, there is no automatic enrollment process, so please be
+        ><br />
+        Currently, there is no automatic enrollment process, so please be
         patient.
       </div>
       <br />
 
+      <h4>To stop using scotauto (revoke scotauto)</h4>
+      <input type="text" placeholder="username" id="username_revoke" />
+      <button id="revoke">Revoke</button>
+      <br />
       <div>
-        You may also want to visit STEEM SCOT Voting Power Viewer:
+        You don't need to notify me after revoking.
+      </div>
+      <br />
+
+      <h5>Steem Scot Voting Power Viewer</h5>
+      <div>
+        You may also want to visit 
         <a href="https://economicstudio.github.io/vp/"
           >https://economicstudio.github.io/vp/</a
         >
       </div>
       <br />
+
 
       <div style="text-align:right">
         Powered by
